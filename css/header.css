@@ -141,8 +141,9 @@ header {
 }
 
 .link {
+		clear: both;
     background-color: lightgoldenrodyellow;
-    width: 46%;
+    width: 43%;
     /* padding: 9px; */
     margin-left: 10px;
     text-transform: uppercase;
