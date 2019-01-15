@@ -172,32 +172,31 @@ header {
 
 /* LAPTOP */
 
-@media screen and (min-width: 800px){
-    
-.requirements{
-  width:50%;
-  float:left;
-}
-    
-.about {
-  width: 52%;
-}
+@media screen and (min-width: 800px){    
+  .requirements{
+    width:50%;
+    float:left;
+  }
+      
+  .about {
+    width: 52%;
+  }
 
-.participation {
-  background-color: #ff0066;
-  width: 48%;
-  float: left;
-  margin-top: -100%;
-  margin-left: 700px;
-}
+  .participation {
+    background-color: #ff0066;
+    width: 48%;
+    float: left;
+    margin-top: -100%;
+    margin-left: 700px;
+  }
 
-.foo{
-  float: right;
-  width: 26%;
-  margin-top: 25%;
-}
+  .foo{
+    float: right;
+    width: 26%;
+    margin-top: 25%;
+  }
 
-.zen{
-  width: 13%;
-}
+  .zen{
+    width: 13%;
+  }
 }
