@@ -199,4 +199,12 @@ header {
     margin-top: -800px;
     margin-left: 614px;
 }
+
+.foo {
+    float: right;
+    width: 26%;
+    margin-top: -3000px;
+    /* position: relative; */
+    /* position: absolute; */
+}
 }
