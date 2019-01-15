@@ -1,51 +1,74 @@
 body {
-    width: 100%;
-    background-color: #e6ffff;
+  width: 100%;
+  background-color: #e6ffff;
 }
 
 .container {
-    background-color: #84e1e1;
-    width: 88%;
-    /*height: 5400px;*/
-    margin-top: 22px;
-    margin-bottom: 20px;
-    margin-left: 25px;
-    float: left;
+  background-color: #84e1e1;
+  width: 88%;
+  /*height: 5400px;*/
+  margin-top: 22px;
+  margin-bottom: 20px;
+  margin-left: 25px;
+  float: left;
+  position: relative;
 }
 
 .benefits {
-    background-color: #FFFFFF;
-    margin-top: 40px;
-    width: 94%;
-    margin-left: 10px;
+  background-color: #FFFFFF;
+  margin-top: 40px;
+  width: 94%;
+  margin-left: 10px;
 }
 
 .requirements {
-    background-color: #FFFFFF;
-    margin-top: 0px;
-    width: 94%;
-    margin-left: 10px;
+  background-color: #FFFFFF;
+  margin-top: 0px;
+  width: 94%;
+  margin-left: 10px;
 }
 
 .black{
   width:100%;
   /*background-color: #666666;*/
 }
+.mainpart{
+  width: 100%;
+}
 
 @media screen and (min-width: 800px){
 
-   .benefits {
-    width: 48%;
+.benefits {
+  width: 52%;
+  margin-left: 4%;
 }
 
-   .requirements {
-     width: 61%;
-    float: left;
-    margin-top: -516px;
-    margin-left: 483px;
+.requirements {
+  width: 85%;
+  float: left;
+  margin-top: -60%;
+  margin-left: 56%;
+  padding: 3%;
 }
 
 .design {
-    width: 72%;
+  width: 72%;
+}
+
+.mainpart{
+  width:70%;
+  float: left;
+}
+
+.black {
+  position: absolute;
+  width: 19%;
+  height: 103%;
+  background-color: #666666;
+  margin-left: 93%;
+  top: -2%;
+  bottom: 4%;
+  opacity: 0.6;
 }
 }
+
