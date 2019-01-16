@@ -194,6 +194,8 @@ header {
       float: right;
       width: 26%;
       margin-top: 25%;
+      position: relative;
+      z-index: 1;
     }
 
     .zen{
